@@ -42,7 +42,7 @@
 		}
 		function UTCtime() {
 			$.ajax({
-				url: 'http://localhost/NeoLab_test2/UTCtime.php',
+				url: 'http://localhost/-Challenge-Web-GetAtomicTimeFromInternetClock-/UTCtime.php',
 				success: function(data) {
 					$('#UTCtime').html(data);
 				},
@@ -50,7 +50,7 @@
 		}
 		function Atomictime() {
 			$.ajax({
-				url: 'http://localhost/NeoLab_test2/index.php',
+				url: 'http://localhost/-Challenge-Web-GetAtomicTimeFromInternetClock-/index.php',
 				success: function(){
 					
 					var time = $('#UTCtime').text();
